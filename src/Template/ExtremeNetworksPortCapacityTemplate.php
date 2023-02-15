@@ -61,7 +61,7 @@
                             $tbl .= '<td style="text-align: center;">'.$openRunning->getInterfaces()->countEthernet().'</td>';
                             $tbl .= '<td style="text-align: center;">'.$openRunning->getInterfaces()->countEthernet('adminUp').'</td>';
                             $tbl .= '<td style="text-align: center;">'.$openRunning->getInterfaces()->countEthernet('operUp').'</td>';
-                            $capacity = round($openRunning->getInterfaces()->countEthernet('operUp')*100/$openRunning->getInterfaces()->countEthernet(), 2);
+                            $capacity = round($openRunning->getInterfaces()->countEthernetByUnit($unitId, 'operUp')*100/$openRunning->getInterfaces()->countEthernetByUnit($unitId), 2);
                             if($capacity < 50) $tbl .= '<td style="background-color: #d4edda; text-align: center;">'.$capacity.' %</td>';
                             elseif($capacity < 75) $tbl .= '<td style="background-color: #fff3cd; text-align: center;">'.$capacity.' %</td>';
                             elseif($capacity <= 100) $tbl .= '<td style="background-color: #f8d7da; text-align: center;">'.$capacity.' %</td>';
