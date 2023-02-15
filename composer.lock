@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "open-network-tools/node-extreme-networks",
-            "version": "v1.0.6",
+            "version": "v1.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-network-tools/node-extreme-networks.git",
-                "reference": "85cd988f6b18121591ea105ced7d9b4257099a70"
+                "reference": "9ba56ad5f39a20b93ae5bca0312d5677f2e32ebd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-network-tools/node-extreme-networks/zipball/85cd988f6b18121591ea105ced7d9b4257099a70",
-                "reference": "85cd988f6b18121591ea105ced7d9b4257099a70",
+                "url": "https://api.github.com/repos/open-network-tools/node-extreme-networks/zipball/9ba56ad5f39a20b93ae5bca0312d5677f2e32ebd",
+                "reference": "9ba56ad5f39a20b93ae5bca0312d5677f2e32ebd",
                 "shasum": ""
             },
             "require": {
@@ -48,9 +48,9 @@
             ],
             "support": {
                 "issues": "https://github.com/open-network-tools/node-extreme-networks/issues",
-                "source": "https://github.com/open-network-tools/node-extreme-networks/tree/v1.0.6"
+                "source": "https://github.com/open-network-tools/node-extreme-networks/tree/v1.0.10"
             },
-            "time": "2023-02-12T19:56:22+00:00"
+            "time": "2023-02-15T10:35:04+00:00"
         },
         {
             "name": "open-network-tools/open-config",
@@ -146,16 +146,16 @@
         },
         {
             "name": "open-network-tools/open-running",
-            "version": "v1.0.9",
+            "version": "v1.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-network-tools/open-running.git",
-                "reference": "d0c59271ea0d39bc36acc0c0dc6ec182b2296ea0"
+                "reference": "1b3811e3b67d3ddd1f201f46b2a22deb6e20a63f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-network-tools/open-running/zipball/d0c59271ea0d39bc36acc0c0dc6ec182b2296ea0",
-                "reference": "d0c59271ea0d39bc36acc0c0dc6ec182b2296ea0",
+                "url": "https://api.github.com/repos/open-network-tools/open-running/zipball/1b3811e3b67d3ddd1f201f46b2a22deb6e20a63f",
+                "reference": "1b3811e3b67d3ddd1f201f46b2a22deb6e20a63f",
                 "shasum": ""
             },
             "require": {
@@ -185,9 +185,9 @@
             ],
             "support": {
                 "issues": "https://github.com/open-network-tools/open-running/issues",
-                "source": "https://github.com/open-network-tools/open-running/tree/v1.0.9"
+                "source": "https://github.com/open-network-tools/open-running/tree/v1.0.12"
             },
-            "time": "2023-02-12T18:10:36+00:00"
+            "time": "2023-02-15T10:23:50+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",

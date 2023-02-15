@@ -42,7 +42,7 @@
 
         public function getVariable($key){
             if(array_key_exists($key, $this->variables)) return $this->variables[$key];
-            else throw new \Exception("Key does exists [".$key."]");
+            else return false;
         }
 
         public function initPDF(){

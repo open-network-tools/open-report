@@ -18,7 +18,9 @@
             $this->getPDF()->setJPEGQuality(75);
             $this->getPDF()->Image('./ressources/2023-extremenetworks-logo.png', 15,20, 60, 15, 'PNG', '', '', true, 150, '', false, false, 0, false, false, false);
 
-            $this->getPDF()->Image($this->openReport->getVariable('PDF_CUSTOMER_LOGO'), 65,170, 80, 40, 'PNG', '', '', true, 150, '', false, false, 0, false, false, false);
+            if($this->openReport->getVariable('PDF_CUSTOMER_LOGO')){
+                $this->getPDF()->Image($this->openReport->getVariable('PDF_CUSTOMER_LOGO'), 65,170, 80, 40, 'PNG', '', '', true, 150, '', false, false, 0, false, false, false);
+            }
 
             $this->getPDF()->Ln(120);
             $this->getPDF()->setFont("helvetica", "B", 20);
